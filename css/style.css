@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #20202D;
+}
+
+p, h1 {
+  margin: 0;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/RobotoBold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/RobotoRegular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 945px;
+}
+
+.flex {
+  display: flex;
+}
+
+.hero {
+  padding: 50px 0 155px 0; 
+  background-color: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.hero-header {
+  margin-bottom: 105px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-links {
+  gap: 20px;
+}
+
+.hero-content {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-subtitle {
+  margin-bottom: 14px;
+  display: inline-block;
+  font-size: 24px;
+  color: #ffbb01;
+}
+
+.hero-title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+.hero-description  {
+  margin-bottom: 38px;
+  max-width: 420px;
+  font-size: 16px;
+  line-height: 175%;
+}
+
+.button {
+  padding: 24px 42px;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 5px 5px 10px 10px;
+  box-shadow: 0 4px 0 0 #b68500;
+  color: #2e2e30;
+  background: linear-gradient(180deg, #fdde76 0%, #ffbb01 100%);
+}
+
+.hero-avator {
+  width: 389px;
+  height: 389px;
+  border-radius: 50%;
+  border: 13px solid #ffffff;
+  background-repeat: no-repeat;
+  background-position: center top -10px;
+  background-image: url('../image/avatar.jpg');
+  background-color: #ffffff;
+}
