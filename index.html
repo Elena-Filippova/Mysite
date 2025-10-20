@@ -5,7 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Елена Филиппова - фрилансер, веб-разработчик</title>
   <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/animate.css">
   <link rel="stylesheet" href="./css/style.css">
+  <script defer src="./js/wow.min.js"></script>
+  <script defer src="./js/main.js"></script>
 </head>
 <body>
   <header class="hero">
@@ -29,21 +32,145 @@
       </div>
       <div class="hero-content flex">
         <div class="hero-text">
-          <span class="hero-subtitle">Фрилансер</span>
-          <h1 class="hero-title">Елена Филиппова</h1>
-          <p class="hero-description">
+          <span class="hero-subtitle wow fadeInRight" data-wow-delay="0.2s">Фрилансер</span>
+          <h1 class="hero-title wow fadeInRight" data-wow-delay="0.4s">Елена Филиппова</h1>
+          <p class="hero-description wow fadeInRight" data-wow-delay="0.6s">
             Разрабатываю сайты для малого и&nbsp;среднего бизнеса. У&nbsp;меня можно заказать дизайн и&nbsp;верстку небольшого сайта
             или интернет-магазина
           </p>
-          <button class="button hero-button">
+          <button class="button hero-button wow fadeInRight" data-wow-delay="0.8s">
             Бесплатная консультация
           </button>
         </div>
-        <div class="hero-avator">
-          
+        <div class="hero-avatar wow fadeIn" data-wow-delay="1.3s">
         </div>
       </div>
     </div>
   </header>
+  <main>
+    <section class="features">
+      <div class="container">
+        <h2 class="section-title wow fadeInRight" data-wow-delay="1.5s">
+          Со&nbsp;мной удобно работать
+        </h2>
+        <div class="features-block flex wow fadeInLeft" data-wow-delay="1.7s">
+          <div class="features-item">
+            <img class="features-img" src="./image/features/offer.svg" alt="По договору">
+            <h3 class="features-title">
+              По&nbsp;договору
+            </h3>
+            <p class="features-text">
+              Предоставлю все документы для бухгалтерии: договоры, счета и&nbsp;акты. Работаю как&nbsp;ИП без НДС.
+            </p>
+          </div>
+          <div class="features-item">
+            <img class="features-img" src="./image/features/deadline.svg" alt="Точно в срок">
+            <h3 class="features-title">
+              Точно в&nbsp;срок
+            </h3>
+            <p class="features-text">
+              В&nbsp;договоре прописана моя ответственность за&nbsp;срок проекта. Если просрочу&nbsp;&mdash; плачу неустойку.
+            </p>
+          </div>
+          <div class="features-item">
+            <img class="features-img" src="./image/features/agreement.svg" alt="Ценник под вас">
+            <h3 class="features-title">
+              Ценник под вас
+            </h3>
+            <p class="features-text">
+              Если у&nbsp;вас нетиповой проект, сделаю рассчет цены за&nbsp;работу и&nbsp;объясню, как складывается цена.
+            </p>
+          </div>
+          <div class="features-item">
+            <img class="features-img" src="./image/features/steps.svg" alt="Премежуточные итоги">
+            <h3 class="features-title">
+              Премежуточные итоги
+            </h3>
+            <p class="features-text">
+              Показываю работу поэтапно, а&nbsp;не&nbsp;в&nbsp;последий момент перед крайним сроком.
+            </p>
+          </div>
+          <div class="features-item">
+            <img class="features-img" src="./image/features/storage.svg" alt="Хостинг и домен">
+            <h3 class="features-title">
+              Хостинг и&nbsp;домен
+            </h3>
+            <p class="features-text">
+              Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.
+            </p>
+          </div>
+          <div class="features-item">
+            <img class="features-img" src="./image/features/conversation.svg" alt="Не брошу после сдачи">
+            <h3 class="features-title">
+              Не&nbsp;брошу после сдачи
+            </h3>
+            <p class="features-text">
+              Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <h2 class="section-title">
+        Свяжитесь со&nbsp;мной
+      </h2>
+      <div class="contacts-block flex">
+        <form action="#" class="contacts-from">
+          <h4 class="form-title">
+            Можете просто оставить заявку, я&nbsp;позвоню вам сегодня
+          </h4>
+          <input type="text" class="input input-name" placeholder="Ваше имя">
+          <input type="tel" class="input input-phone" placeholder="Ваш телефон">
+          <button class="button form-button">
+            Бесплатная консультация
+          </button>
+        </form>
+        <div class="contacts-text">
+          <div class="contacts-data flex">
+            <div class="contacts-phone">
+              <h4 class="contacts-title">
+                Телефон
+              </h4>
+              <a href="tel:+375293163930" class="contacts-link">+375 29 316-39-30</a>
+            </div>
+            <div class="contacts-mail">
+              <h4 class="contacts-title">
+                Почта
+              </h4>
+              <a href="mailto:elenafilippova2807@gmail.com" class="contacts-link">elenafilippova2807@gmail.com</a>
+            </div>
+            <div class="contacts-social">
+              <h4 class="contacts-title">
+                Соцсети
+              </h4>
+              <a href="#" class="contacts-link"></a>
+              <a href="#" class="contacts-link"></a>
+              <a href="#" class="contacts-link"></a>
+            </div>
+          </div>
+          <div class="social-links flex">
+            <a class="social-link" href="https://github.com/Elena-Filippova" target="_blank">
+              <img src="./image/social/github.svg" alt="Github">
+            </a>
+            <a class="social-link" href="#" target="_blank">
+              <img src="./image/social/twitter.svg" alt="Twitter">
+            </a>
+            <a class="social-link" href="https://www.instagram.com/_lenka_filippova_/" target="_blank">
+              <img src="./image/social/instagram.svg" alt="Instagram">
+            </a>
+            <a class="social-link" href="https://www.facebook.com/elena.filippova.2807?locale=ru_RU" target="_blank">
+              <img src="./image/social/facebook.svg" alt="Facebook">
+            </a>
+          </div>
+          <a href="#" class="contacts-policy">
+            Политика конфиденциальности
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
