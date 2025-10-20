@@ -58,7 +58,7 @@ a {
 
 .hero {
   padding: 50px 0 155px 0; 
-  background-color: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(0deg, #000 0%, rgba(0, 0, 0, 0) 100%);
 }
 
 .hero-header {
@@ -121,6 +121,7 @@ a {
 
 .features {
   padding: 64px 0 92px 0;
+  background-color: #000000;
 }
 
 .features-block {
@@ -147,6 +148,83 @@ a {
 .features-text {
   font-size: 16px;
   line-height: 175%;
+}
+
+.projects {
+  background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.swiper {
+  margin-bottom: 44px;
+}
+
+.project-slide {
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.project-text {
+  flex-basis: 60%;
+  flex-wrap: wrap;
+}
+
+.project-title {
+  margin-bottom: 41px;
+  flex-basis: 100%;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.project-time,
+.project-cost {
+  margin-bottom: 44px;
+  flex-basis: 50%;
+}
+
+.project-time,
+.project-cost,
+.project-feedback {
+  align-items: flex-start;
+}
+
+.project-icon {
+  margin-right: 16px;
+}
+
+.project-subtitle {
+  margin-bottom: 7px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.project-paragraph {
+  max-width: 481px;
+  font-size: 16px;
+}
+
+.projects-pagination {
+  justify-content: center;
+  align-items: center;
+}
+
+.project-bullet {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  fill: rgba(255, 187, 1, 0);
+  stroke-width: 2px;
+  stroke: #ffbb01;
+}
+
+.project-bullet-active {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  fill: #ffbb01;
+  stroke-width: 2px;
+  stroke: #ffbb01;
 }
 
 .contacts-block {
@@ -232,8 +310,9 @@ a {
   font-size: 16px;
 }
 
-.contacts-social .contacts-link {
-  margin-right: 37px;
+.contacts-social .contacts-link:not(:last-child) {
+  display: inline-block;
+  margin: 0 37px 10px 0;
 }
 
 .contacts-text .social-links {
